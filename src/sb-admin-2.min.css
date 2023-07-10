@@ -624,10 +624,11 @@ pre code {
 }
 
 .row {
-    display: flex;
+    display:flex;
     flex-wrap: wrap;
     margin-right: -0.75rem;
     margin-left: -0.75rem;
+    align-content: center;
 }
 
 .no-gutters {
@@ -12128,13 +12129,13 @@ a:focus {
 }
 
 .bg-login-image {
-    background: url(https://source.unsplash.com/K4mSJ7kc0As/600x800);
+    background: url(https://t4.ftcdn.net/jpg/01/19/11/55/360_F_119115529_mEnw3lGpLdlDkfLgRcVSbFRuVl6sMDty.jpg);
     background-position: center;
     background-size: cover;
 }
 
 .bg-register-image {
-    background: url(https://source.unsplash.com/Mv9hjnEUHR4/600x800);
+    background: url(https://t3.ftcdn.net/jpg/01/82/04/38/360_F_182043866_cQZwPYqKo2xZvZ8sSwW7rdRbf72GcsH4.jpg);
     background-position: center;
     background-size: cover;
 }
