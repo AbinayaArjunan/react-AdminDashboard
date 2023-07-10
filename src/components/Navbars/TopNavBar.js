@@ -50,7 +50,7 @@ function TopNavBar() {
                 <li class="nav-item dropdown no-arrow d-sm-none">
                     <a
                         class="nav-link dropdown-toggle"
-                        href="#"
+                        href="#top"
                         id="searchDropdown"
                         role="button"
                         data-toggle="dropdown"
@@ -112,7 +112,7 @@ function TopNavBar() {
                         aria-labelledby="alertsDropdown"
                     >
                         <h6 class="dropdown-header">Alerts Center</h6>
-                        <a class="dropdown-item d-flex align-items-center" href="#">
+                        <a class="dropdown-item d-flex align-items-center" href="#top">
                             <div class="mr-3">
                                 <div class="icon-circle bg-primary">
                                     <FontAwesomeIcon icon={faFileAlt} />
@@ -125,7 +125,7 @@ function TopNavBar() {
                                 </span>
                             </div>
                         </a>
-                        <a class="dropdown-item d-flex align-items-center" href="#">
+                        <a class="dropdown-item d-flex align-items-center" href="#top">
                             <div class="mr-3">
                                 <div class="icon-circle bg-success">
                                     <FontAwesomeIcon icon={faDonate} />
@@ -136,7 +136,7 @@ function TopNavBar() {
                                 $290.29 has been deposited into your account!
                             </div>
                         </a>
-                        <a class="dropdown-item d-flex align-items-center" href="#">
+                        <a class="dropdown-item d-flex align-items-center" href="#top">
                             <div class="mr-3">
                                 <div class="icon-circle bg-warning">
                                     <i class="fas fa-exclamation-triangle text-white"></i>
@@ -149,7 +149,7 @@ function TopNavBar() {
                                 account.
                             </div>
                         </a>
-                        <a class="dropdown-item text-center small text-gray-500" href="#">
+                        <a class="dropdown-item text-center small text-gray-500" href="#top">
                             Show All Alerts
                         </a>
                     </div>
@@ -184,7 +184,7 @@ function TopNavBar() {
                         aria-labelledby="messagesDropdown"
                     >
                         <h6 class="dropdown-header">Message Center</h6>
-                        <a class="dropdown-item d-flex align-items-center" href="#">
+                        <a class="dropdown-item d-flex align-items-center" href="#top">
                             <div class="dropdown-list-image mr-3">
                                 <img
                                     class="rounded-circle"
@@ -201,7 +201,7 @@ function TopNavBar() {
                                 <div class="small text-gray-500">Emily Fowler · 58m</div>
                             </div>
                         </a>
-                        <a class="dropdown-item d-flex align-items-center" href="#">
+                        <a class="dropdown-item d-flex align-items-center" href="#top">
                             <div class="dropdown-list-image mr-3">
                                 <img
                                     class="rounded-circle"
@@ -218,7 +218,7 @@ function TopNavBar() {
                                 <div class="small text-gray-500">Jae Chun · 1d</div>
                             </div>
                         </a>
-                        <a class="dropdown-item d-flex align-items-center" href="#">
+                        <a class="dropdown-item d-flex align-items-center" href="#top">
                             <div class="dropdown-list-image mr-3">
                                 <img
                                     class="rounded-circle"
@@ -235,7 +235,7 @@ function TopNavBar() {
                                 <div class="small text-gray-500">Morgan Alvarez · 2d</div>
                             </div>
                         </a>
-                        <a class="dropdown-item d-flex align-items-center" href="#">
+                        <a class="dropdown-item d-flex align-items-center" href="#top">
                             <div class="dropdown-list-image mr-3">
                                 <img
                                     class="rounded-circle"
@@ -252,7 +252,7 @@ function TopNavBar() {
                                 <div class="small text-gray-500">Chicken the Dog · 2w</div>
                             </div>
                         </a>
-                        <a class="dropdown-item text-center small text-gray-500" href="#">
+                        <a class="dropdown-item text-center small text-gray-500" href="#top">
                             Read More Messages
                         </a>
                     </div>
@@ -292,15 +292,15 @@ function TopNavBar() {
                         }
                         aria-labelledby="userDropdown"
                     >
-                        <a class="dropdown-item" href="#">
+                        <a class="dropdown-item" href="#top">
                             <FontAwesomeIcon className="user-account-icon" icon={faUser} />
                             Profile
                         </a>
-                        <a class="dropdown-item" href="#">
+                        <a class="dropdown-item" href="#top">
                             <FontAwesomeIcon className="user-account-icon" icon={faCogs} />
                             Settings
                         </a>
-                        <a class="dropdown-item" href="#">
+                        <a class="dropdown-item" href="#top">
                             <FontAwesomeIcon className="user-account-icon" icon={faList} />
                             Activity Log
                         </a>

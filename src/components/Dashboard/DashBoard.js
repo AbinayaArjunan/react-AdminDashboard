@@ -15,7 +15,7 @@ const DashBoard = () => {
             <div class="d-sm-flex align-items-center justify-content-between mb-4">
                 <h1 class="h3 mb-0 text-gray-800">Dashboard</h1>
                 <a
-                    href="#"
+                    href="#top"
                     class="d-none d-sm-inline-block btn btn-sm btn-primary shadow-sm"
                 >
                     <i class="fas fa-download fa-sm text-white-50"></i> Generate Report
@@ -215,13 +215,13 @@ const DashBoard = () => {
                             </div>
                             <p>
                                 Add some quality, svg illustrations to your project courtesy of
-                                <a target="_blank" rel="nofollow" href="https://undraw.co/">
+                                <a target="_blank" rel="noopener" href="https://undraw.co/">
                                     unDraw
                                 </a>
                                 , a constantly updated collection of beautiful svg images that
                                 you can use completely free and without attribution!
                             </p>
-                            <a target="_blank" rel="nofollow" href="https://undraw.co/">
+                            <a target="_blank" rel="noopener" href="https://undraw.co/">
                                 Browse Illustrations on unDraw &rarr;
                             </a>
                         </div>

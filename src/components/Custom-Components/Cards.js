@@ -139,7 +139,7 @@ const Cards = () => {
                             <div class="dropdown no-arrow">
                                 <a
                                     class="dropdown-toggle"
-                                    href="#"
+                                    href="#top"
                                     role="button"
                                     id="dropdownMenuLink"
                                     data-toggle="dropdown"
@@ -153,14 +153,14 @@ const Cards = () => {
                                     aria-labelledby="dropdownMenuLink"
                                 >
                                     <div class="dropdown-header">Dropdown Header:</div>
-                                    <a class="dropdown-item" href="#">
+                                    <a class="dropdown-item" href="#top">
                                         Action
                                     </a>
-                                    <a class="dropdown-item" href="#">
+                                    <a class="dropdown-item" href="#top">
                                         Another action
                                     </a>
                                     <div class="dropdown-divider"></div>
-                                    <a class="dropdown-item" href="#">
+                                    <a class="dropdown-item" href="#top">
                                         Something else here
                                     </a>
                                 </div>

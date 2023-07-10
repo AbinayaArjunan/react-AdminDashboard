@@ -102,11 +102,11 @@ const Buttons = () => {
                             <code>_buttons.scss</code>
                             file.
                         </p>
-                        <a href="#" class="btn btn-google btn-block">
+                        <a href="#top" class="btn btn-google btn-block">
                             <i class="fab fa-google fa-fw"></i>
                             .btn-google
                         </a>
-                        <a href="#" class="btn btn-facebook btn-block">
+                        <a href="#top" class="btn btn-facebook btn-block">
                             <i class="fab fa-facebook-f fa-fw"></i> .btn-facebook
                         </a>
                     </div>
@@ -149,28 +149,28 @@ const Buttons = () => {
                             <span class="text">Split Button Info</span>
                         </a>
                         <div class="my-2"></div>
-                        <a href="#" class="btn btn-warning btn-icon-split">
+                        <a href="#top" class="btn btn-warning btn-icon-split">
                             <span class="icon text-white-50">
                                 <FontAwesomeIcon icon={faExclamationTriangle} />
                             </span>
                             <span class="text">Split Button Warning</span>
                         </a>
                         <div class="my-2"></div>
-                        <a href="#" class="btn btn-danger btn-icon-split">
+                        <a href="#top" class="btn btn-danger btn-icon-split">
                             <span class="icon text-white-50">
                                 <FontAwesomeIcon icon={faTrash} />
                             </span>
                             <span class="text">Split Button Danger</span>
                         </a>
                         <div class="my-2"></div>
-                        <a href="#" class="btn btn-secondary btn-icon-split">
+                        <a href="#top" class="btn btn-secondary btn-icon-split">
                             <span class="icon text-white-50">
                                 <FontAwesomeIcon icon={faArrowRight} />
                             </span>
                             <span class="text">Split Button Secondary</span>
                         </a>
                         <div class="my-2"></div>
-                        <a href="#" class="btn btn-light btn-icon-split">
+                        <a href="#top" class="btn btn-light btn-icon-split">
                             <span class="icon text-gray-600">
                                 <FontAwesomeIcon icon={faArrowRight} />
                             </span>
@@ -178,14 +178,14 @@ const Buttons = () => {
                         </a>
                         <div class="mb-4"></div>
                         <p>Also works with small and large button classes!</p>
-                        <a href="#" class="btn btn-primary btn-icon-split btn-sm">
+                        <a href="#top" class="btn btn-primary btn-icon-split btn-sm">
                             <span class="icon text-white-50">
                                 <FontAwesomeIcon icon={faFlag} />
                             </span>
                             <span class="text">Split Button Small</span>
                         </a>
                         <div class="my-2"></div>
-                        <a href="#" class="btn btn-primary btn-icon-split btn-lg">
+                        <a href="#top" class="btn btn-primary btn-icon-split btn-lg">
                             <span class="icon text-white-50">
                                 <FontAwesomeIcon icon={faFlag} />
                             </span>
