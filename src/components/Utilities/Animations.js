@@ -26,14 +26,14 @@ const Animations = () => {
                             </div>
                             <div class="small mb-1">Navbar Dropdown Example:</div>
                             <nav class="navbar navbar-expand navbar-light bg-light mb-4">
-                                <a class="navbar-brand" href="#">
+                                <a class="navbar-brand" href="#top">
                                     Navbar
                                 </a>
                                 <ul class="navbar-nav ml-auto">
                                     <li class="nav-item dropdown">
                                         <a
                                             class="nav-link dropdown-toggle"
-                                            href="#"
+                                            href="#top"
                                             id="navbarDropdown"
                                             role="button"
                                             data-toggle="dropdown"
@@ -46,14 +46,14 @@ const Animations = () => {
                                             class="dropdown-menu dropdown-menu-right animated--grow-in"
                                             aria-labelledby="navbarDropdown"
                                         >
-                                            <a class="dropdown-item" href="#">
+                                            <a class="dropdown-item" href="#top">
                                                 Action
                                             </a>
-                                            <a class="dropdown-item" href="#">
+                                            <a class="dropdown-item" href="#top">
                                                 Another action
                                             </a>
                                             <div class="dropdown-divider"></div>
-                                            <a class="dropdown-item" href="#">
+                                            <a class="dropdown-item" href="#top">
                                                 Something else here
                                             </a>
                                         </div>
@@ -83,14 +83,14 @@ const Animations = () => {
                             </div>
                             <div class="small mb-1">Navbar Dropdown Example:</div>
                             <nav class="navbar navbar-expand navbar-light bg-light mb-4">
-                                <a class="navbar-brand" href="#">
+                                <a class="navbar-brand" href="#top">
                                     Navbar
                                 </a>
                                 <ul class="navbar-nav ml-auto">
                                     <li class="nav-item dropdown">
                                         <a
                                             class="nav-link dropdown-toggle"
-                                            href="#"
+                                            href="#top"
                                             id="navbarDropdown"
                                             role="button"
                                             data-toggle="dropdown"
@@ -103,14 +103,14 @@ const Animations = () => {
                                             class="dropdown-menu dropdown-menu-right animated--fade-in"
                                             aria-labelledby="navbarDropdown"
                                         >
-                                            <a class="dropdown-item" href="#">
+                                            <a class="dropdown-item" href="#top">
                                                 Action
                                             </a>
-                                            <a class="dropdown-item" href="#">
+                                            <a class="dropdown-item" href="#top">
                                                 Another action
                                             </a>
                                             <div class="dropdown-divider"></div>
-                                            <a class="dropdown-item" href="#">
+                                            <a class="dropdown-item" href="#top">
                                                 Something else here
                                             </a>
                                         </div>
@@ -142,13 +142,13 @@ const Animations = () => {
                                     }
                                     aria-labelledby="dropdownMenuButton"
                                 >
-                                    <a class="dropdown-item" href="#">
+                                    <a class="dropdown-item" href="#top">
                                         Action
                                     </a>
-                                    <a class="dropdown-item" href="#">
+                                    <a class="dropdown-item" href="#top">
                                         Another action
                                     </a>
-                                    <a class="dropdown-item" href="#">
+                                    <a class="dropdown-item" href="#top">
                                         Something else here
                                     </a>
                                 </div>
