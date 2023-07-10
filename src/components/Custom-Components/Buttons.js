@@ -28,56 +28,56 @@ const Buttons = () => {
                         <div class="mb-2">
                             <code>.btn-circle</code>
                         </div>
-                        <a href="#" class="btn btn-primary btn-circle">
+                        <a href="#top" onclick={foo} class="btn btn-primary btn-circle">
                             <FontAwesomeIcon icon={faBlog} />
                         </a>
-                        <a href="#" class="btn btn-success btn-circle">
+                        <a href="#top" class="btn btn-success btn-circle">
                             <FontAwesomeIcon icon={faCheck} />
                         </a>
-                        <a href="#" class="btn btn-info btn-circle">
+                        <a href="#top" class="btn btn-info btn-circle">
                             <FontAwesomeIcon icon={faInfoCircle} />
                         </a>
-                        <a href="#" class="btn btn-warning btn-circle">
+                        <a href="#top" class="btn btn-warning btn-circle">
                             <FontAwesomeIcon icon={faExclamationTriangle} />
                         </a>
-                        <a href="#" class="btn btn-danger btn-circle">
+                        <a href="#top" class="btn btn-danger btn-circle">
                             <FontAwesomeIcon icon={faTrash} />
                         </a>
                         <div class="mt-4 mb-2">
                             <code>.btn-circle .btn-sm</code>
                         </div>
-                        <a href="#" class="btn btn-primary btn-circle btn-sm">
+                        <a href="#top" class="btn btn-primary btn-circle btn-sm">
                             <FontAwesomeIcon icon={faBlog} />
                         </a>
-                        <a href="#" class="btn btn-success btn-circle btn-sm">
+                        <a href="#top" class="btn btn-success btn-circle btn-sm">
                             <FontAwesomeIcon icon={faCheck} />
                         </a>
-                        <a href="#" class="btn btn-info btn-circle btn-sm">
+                        <a href="#top" class="btn btn-info btn-circle btn-sm">
                             <FontAwesomeIcon icon={faInfoCircle} />
                         </a>
-                        <a href="#" class="btn btn-warning btn-circle btn-sm">
+                        <a href="#top" class="btn btn-warning btn-circle btn-sm">
                             <FontAwesomeIcon icon={faExclamationTriangle} />
                         </a>
-                        <a href="#" class="btn btn-danger btn-circle btn-sm">
+                        <a href="#top" class="btn btn-danger btn-circle btn-sm">
                             <FontAwesomeIcon icon={faTrash} />
                         </a>
                         {/* <!-- Circle Buttons (Large) --> */}
                         <div class="mt-4 mb-2">
                             <code>.btn-circle .btn-lg</code>
                         </div>
-                        <a href="#" class="btn btn-primary btn-circle btn-lg">
+                        <a href="#top" class="btn btn-primary btn-circle btn-lg">
                             <FontAwesomeIcon icon={faBlog} />
                         </a>
-                        <a href="#" class="btn btn-success btn-circle btn-lg">
+                        <a href="#top" class="btn btn-success btn-circle btn-lg">
                             <FontAwesomeIcon icon={faCheck} />
                         </a>
-                        <a href="#" class="btn btn-info btn-circle btn-lg">
+                        <a href="#top" class="btn btn-info btn-circle btn-lg">
                             <FontAwesomeIcon icon={faInfoCircle} />
                         </a>
-                        <a href="#" class="btn btn-warning btn-circle btn-lg">
+                        <a href="#top" class="btn btn-warning btn-circle btn-lg">
                             <FontAwesomeIcon icon={faExclamationTriangle} />
                         </a>
-                        <a href="#" class="btn btn-danger btn-circle btn-lg">
+                        <a href="#top" class="btn btn-danger btn-circle btn-lg">
                             <FontAwesomeIcon icon={faTrash} />
                         </a>
                     </div>
