@@ -127,21 +127,21 @@ const Buttons = () => {
                             <code>.text-white-50</code> helper class on the icons for
                             additional styling, but it is not required.
                         </p>
-                        <a href="#" class="btn btn-primary btn-icon-split">
+                        <a href="#top" class="btn btn-primary btn-icon-split">
                             <span class="icon text-white-50">
                                 <FontAwesomeIcon icon={faFlag} />
                             </span>
                             <span class="text">Split Button Primary</span>
                         </a>
                         <div class="my-2"></div>
-                        <a href="#" class="btn btn-success btn-icon-split">
+                        <a href="#top" class="btn btn-success btn-icon-split">
                             <span class="icon text-white-50">
                                 <FontAwesomeIcon icon={faCheck} />
                             </span>
                             <span class="text">Split Button Success</span>
                         </a>
                         <div class="my-2"></div>
-                        <a href="#" class="btn btn-info btn-icon-split">
+                        <a href="#top" class="btn btn-info btn-icon-split">
                             <span class="icon text-white-50">
                                 <FontAwesomeIcon icon={faInfoCircle} />
                             </span>
