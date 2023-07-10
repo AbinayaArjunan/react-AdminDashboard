@@ -28,7 +28,7 @@ const Buttons = () => {
                         <div class="mb-2">
                             <code>.btn-circle</code>
                         </div>
-                        <a href="#top" onclick={foo} class="btn btn-primary btn-circle">
+                        <a href="#top"  class="btn btn-primary btn-circle">
                             <FontAwesomeIcon icon={faBlog} />
                         </a>
                         <a href="#top" class="btn btn-success btn-circle">
@@ -135,7 +135,7 @@ const Buttons = () => {
                         </a>
                         <div class="my-2"></div>
                         {/* <a href="javascript:void(0)" onClick={foo}></a> */}
-                        <a href="#" onClick={foo} class="btn btn-success btn-icon-split">
+                        <a href="#top"  class="btn btn-success btn-icon-split">
                             <span class="icon text-white-50">
                                 <FontAwesomeIcon icon={faCheck} />
                             </span>
