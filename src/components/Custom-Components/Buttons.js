@@ -134,7 +134,8 @@ const Buttons = () => {
                             <span class="text">Split Button Primary</span>
                         </a>
                         <div class="my-2"></div>
-                        <a href="#top" class="btn btn-success btn-icon-split">
+                        {/* <a href="javascript:void(0)" onClick={foo}></a> */}
+                        <a href="#" onClick={foo} class="btn btn-success btn-icon-split">
                             <span class="icon text-white-50">
                                 <FontAwesomeIcon icon={faCheck} />
                             </span>
