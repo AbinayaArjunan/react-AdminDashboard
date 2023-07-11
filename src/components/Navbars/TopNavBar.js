@@ -52,7 +52,7 @@ function TopNavBar() {
                         class="nav-link dropdown-toggle"
                         href="#top"
                         id="searchDropdown"
-                        role="button"
+                        // role="button"
                         data-toggle="dropdown"
                         aria-haspopup="true"
                         aria-expanded="false"
@@ -92,7 +92,8 @@ function TopNavBar() {
                                 : "nav-link dropdown-toggle"
                         }
                         id="alertsDropdown"
-                        role="button"
+                        //  role="button"
+                        // MyComponentrole="main"
                         data-toggle="dropdown"
                         aria-haspopup={alert_visible}
                         aria-expanded="false"
@@ -164,7 +165,6 @@ function TopNavBar() {
                                 : "nav-link dropdown-toggle"
                         }
                         id="messagesDropdown"
-                        role="button"
                         data-toggle="dropdown"
                         aria-haspopup={inbox_visible}
                         aria-expanded="false"
@@ -269,7 +269,6 @@ function TopNavBar() {
                                 : "nav-link dropdown-toggle"
                         }
                         id="userDropdown"
-                        role="button"
                         data-toggle="dropdown"
                         aria-haspopup={user_account_visible}
                         aria-expanded="false"
@@ -281,6 +280,7 @@ function TopNavBar() {
                         <img
                             class="img-profile rounded-circle"
                             src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTvGbxnqm-l1GHdl0HmFqHQrErAJN9X8WMU6g&usqp=CAU"
+                            alt=""
                         />
                     </button>
                    
